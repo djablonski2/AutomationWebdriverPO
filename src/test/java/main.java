@@ -4,7 +4,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class main {
 
 
-    public static void main(String[] args) {
+    public static void firstTest(String[] args) {
         // declaration and instantiation of objects/variables
 //        System.setProperty("webdriver.gecko.driver","C:\\geckodriver.exe");
 //        WebDriver driver = new FirefoxDriver();
@@ -14,7 +14,7 @@ public class main {
 
         String baseUrl = "http://demo.guru99.com/test/newtours/";
         String expectedTitle = "Welcome: Mercury Tours";
-        String actualTitle = "";
+        String actualTitle;
 
         // launch Fire fox and direct it to the Base URL
         driver.get(baseUrl);
