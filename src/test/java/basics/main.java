@@ -11,7 +11,7 @@ public class main {
 //        System.setProperty("webdriver.gecko.driver","C:\\geckodriver.exe");
 //        WebDriver driver = new FirefoxDriver();
         //comment the above 2 lines and uncomment below 2 lines to use Chrome
-        System.setProperty("webdriver.chrome.driver","src\\basics.main\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","src\\main\\resources\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
         String baseUrl = "http://demo.guru99.com/test/newtours/";

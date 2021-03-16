@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class tryCatch {
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "src\\basics.main\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
         String baseUrl = "https://demoqa.com/automation-practice-form";

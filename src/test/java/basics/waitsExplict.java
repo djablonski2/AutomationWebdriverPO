@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 public class waitsExplict {
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "src\\basics.main\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
 
         WebDriver driverWithWaits = new ChromeDriver();
 
