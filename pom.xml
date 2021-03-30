@@ -14,6 +14,21 @@
             <artifactId>selenium-java</artifactId>
             <version>3.141.59</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>5.0.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.weka/WekaExcel -->
+        <!--WekaExcel adds support to directory read from and write to spreadsheets in Microsoft Excel 97-2007 format.
+        It uses Apache POI (http://poi.apache.org/), specifically POI-HSSF and POI-XSSF (http://poi.apache.org/spreadsheet/),
+        in order to read/write Excel spreadsheets.-->
+        <dependency>
+            <groupId>nz.ac.waikato.cms.weka</groupId>
+            <artifactId>WekaExcel</artifactId>
+            <version>1.0.8</version>
+        </dependency>
 
     </dependencies>
 

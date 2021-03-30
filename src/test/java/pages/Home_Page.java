@@ -8,7 +8,7 @@ public class Home_Page {
     private static WebElement element = null;
 
     public static WebElement lnk_SignIn(WebDriver driver) {
-        element = driver.findElement(By.id("account"));
+        element = driver.findElement(By.xpath("//a[@href='/login']"));
         return element;
     }
 
@@ -18,7 +18,7 @@ public class Home_Page {
     }
 
     public static WebElement lnk_LogOut(WebDriver driver) {
-        element = driver.findElement(By.id("account_logout"));
+        element = driver.findElement(By.xpath("//a[@href='/logout']"));
         return element;
     }
 
