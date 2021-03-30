@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="AutomationWebdriverPO" />
+        <module name="AutomationWebdriverPOM" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="AutomationWebdriverPO" target="15" />
+      <module name="AutomationWebdriverPOM" target="15" />
     </bytecodeTargetLevel>
   </component>
 </project>
