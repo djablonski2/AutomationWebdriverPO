@@ -18,7 +18,7 @@ public class Fourth_dataExcel_TC {
         ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData, "Sheet1");
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.get(Constant.URL);
+        driver.get(Constant.HerokuApp);
         SignIn_Action.Execute(driver);
         System.out.println("Login Successfully, now it is the time to Log Off buddy.");
         Home_Page.lnk_LogOut(driver).click();
